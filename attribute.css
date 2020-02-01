@@ -1,0 +1,51 @@
+
+h1[class="head"]{
+  font-size: 2rem;
+  color: violet;
+}
+h1[class~="heading"]{
+  font-size: 2rem;
+  color: green;
+}
+h1[class|="read"]{
+  font-size: 2rem;
+  color: blue;
+}
+h1[class^="read"]{
+  font-size: 2rem;
+  color: red;
+}
+h1[class$="ing"]{
+  font-size: 2rem;
+  color: brown;
+}
+h1[class*="ad"]{
+  font-size: 2rem;
+  color: violet;
+}
+
+
+
+
+.pic{
+  border-radius: 10rem;
+  border: 45px solid red;
+border-image: url(./border1.jpg) 60 stretch ;
+width: 300px;
+}
+img{
+  height: 200px;
+  width: 300px;
+}
+.paragraph{
+  background: linear-gradient(to top,green 20%, white 60%, orange 80%);
+  /* border-radius: 10% */
+  width: 80px;
+  height:40px;
+}
+.novel{
+  border: 2px solid black;
+  background: radial-gradient(red, black, blue, brown, green);
+  width: 250px;
+  height:250px;
+  /* border-radius: 50%; */

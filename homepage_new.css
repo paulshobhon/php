@@ -1,0 +1,29 @@
+.nav .el {
+list-style-type: none;
+
+}
+.nav  .el{
+  display: inline-block;
+  border: 1px solid blue;
+}
+
+.nav  .el{
+  display: inline-block;
+  border: 1px solid blue;
+}
+.drop-content{
+  display: none;
+  opacity: 0;
+  border: 1px solid red;
+  list-style-type: none;
+  position:absolute;
+  background-color: yellow;
+  margin: 1rem;
+  padding: 1rem;
+  z-index: 3;
+  transition-duration: 0.5s;
+}
+.nav .drop:hover .drop-content{
+  display:block;
+opacity: 1;
+}
